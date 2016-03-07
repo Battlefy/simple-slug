@@ -2,6 +2,7 @@
 const expect = require('chai').expect;
 const slug = require('../main/index');
 
+
 const tests = [
   ['The \u212B symbol invented by A. J. \u00C5ngstr\u00F6m (1814, L\u00F6gd\u00F6, \u2013 1874) denotes the length 10\u207B\u00B9\u2070 m.', 'the-å-symbol-invented-by-a-j-ångström-1814-lögdö-\u2013-1874-denotes-the-length-10\u207B\u00B9\u2070-m'],
   ['Быстрее и лучше!', 'быстрее-и-лучше'],
@@ -25,6 +26,12 @@ const tests = [
   ['일본정부 법무대신(法務大臣): 우리는 일본 입관법의 재검토를 요구한다!', '일본정부-법무대신法務大臣-우리는-일본-입관법의-재검토를-요구한다']
 ];
 
-tests.forEach((test) => {
-  expect(slug(test[0])).to.equal(test[1]);
+describe('simple slug', () => {
+
+  it('should match expected', () => {
+    return Promise.all(tests.map((test) => {
+        return expect(slug(test[0])).to.equal(test[1]);
+      })
+    );
+  });
 });

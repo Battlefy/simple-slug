@@ -4,7 +4,7 @@
   "description": "slug lib to replace punctuation marks that browsers could not translate nicely, such as space",
   "main": "main/index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Battlefy/simple-slug#readme",
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
