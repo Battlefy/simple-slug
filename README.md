@@ -1,0 +1,1 @@
+Simple slug lib that takes out browser unfriendly characters. Leaving unicode as it is.

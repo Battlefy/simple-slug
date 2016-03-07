@@ -1,0 +1,25 @@
+{
+  "name": "simple-slug",
+  "version": "1.0.0",
+  "description": "slug lib to replace punctuation marks that browsers could not translate nicely, such as space",
+  "main": "main/index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Battlefy/simple-slug.git"
+  },
+  "keywords": [
+    "slug"
+  ],
+  "author": "Battlefy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Battlefy/simple-slug/issues"
+  },
+  "homepage": "https://github.com/Battlefy/simple-slug#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
