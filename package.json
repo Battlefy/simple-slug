@@ -1,6 +1,6 @@
 {
   "name": "simple-slug",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "slug lib to replace punctuation marks that browsers could not translate nicely, such as space",
   "main": "main/index.js",
   "scripts": {
