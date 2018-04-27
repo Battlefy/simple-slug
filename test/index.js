@@ -10,6 +10,7 @@ const tests = [
   ['Bän...g (bang)', 'bäng-bang'],
   ['    a ', 'a'],
   ['tags/', 'tags'],
+  ['tags\\', 'tags'],
   ['y_u_no', 'y_u_no'],
   ['el-ni\xf1o', 'el-ni\xf1o'],
   ['x荿&', 'x荿'],
