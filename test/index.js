@@ -11,6 +11,7 @@ const tests = [
   ['    a ', 'a'],
   ['tags/', 'tags'],
   ['y_u_no', 'y_u_no'],
+  ['%y_%u_%no% %', 'y_u_no'],
   ['el-ni\xf1o', 'el-ni\xf1o'],
   ['x荿&', 'x荿'],
   ['ϧ΃蒬蓣', 'ϧ΃蒬蓣'],
