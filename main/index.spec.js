@@ -1,6 +1,5 @@
 'use strict';
 
-const expect = require('chai').expect;
 const slug = require('../main/index');
 
 const tests = [
@@ -31,7 +30,7 @@ describe('simple slug', () => {
 
   it('should match expected', () => {
     return Promise.all(tests.map((test) => {
-        return expect(slug(test[0])).to.equal(test[1]);
+        return expect(slug(test[0])).toEqual(test[1]);
       })
     );
   });
