@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Battlefy/simple-slug#readme",
   "devDependencies": {
-    "jest": "23.3.0"
+    "jest": "24.8.0"
   }
 }
